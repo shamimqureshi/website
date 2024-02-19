@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ul 
+{
+    list-style: none;
+    background: #ffffff;
+}
+ul li {
+    display: inline-block;
+    position: relative;
+    margin-left: 1%;
+    padding: 1;
+}
+ul li a{
+    display: block;
+    padding: 20 25;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+ul li ul.dropdown li {
+    display: block;
+    
+}
+ul li ul.dropdown {
+    width: 100%;
+    background: #f0f0f0;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+ul li a:hover {
+    background-color: #ffffff;
+}
+ul li:hover ul.dropdown {
+    display: block;
+}
+html {
+        padding: 0%;
+        margin: 0%;
+        width: 100%;
+        height: 100%;
+        border:none;
+        height: 45pc;
+    }
+        p,
+        h2,h1 {
+            padding: 5px;
+            margin: 5px;
+            color: rgb(255, 255, 255);
+        } 
+        b{
+            font-size: 3pc;
+            padding-bottom: 20px;
+            padding: 1%;
+            color: rgb(0, 0, 0);
+            padding-top: 100%;
+        }
+        .contain1{   
+                    width: 100%;
+                    height: 80%;
+                    border: 2px;
+                    background:#ffffff;
+        }
+        .contain2{   
+            width: 100%;
+            height: 80%;
+            border: 2px;
+            margin-top: 15px;
+           margin-left: 20%;
+}
+.contain{   
+          display: flex;
+          background-color: #ffffff;
+}
+        .scrool {
+        width: 100%;
+        height: 37pc;
+        aspect-ratio: 5/3;
+        padding: 40px 0;
+        margin: 10px;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        scroll-snap-type: y mandatory;
+        border: none;
+        background-color: #1e1e1e;
+    }
+    
+    body::-webkit-scrollbar{
+            display: none;
+                width: 98%;
+}
+.hydrabaad {
+    float: right;
+    border: none;
+    margin: 5%;
+    margin-top: 3%;
+}
+.hyd{
+       padding-right: 40%;
+       margin-right: 30%;
+}
+.os{
+    border: 2px solid white;
+    width: 50%;
+    padding: 10px;
+}
+.box1{
+       display: flex;
+       margin: 15px;
+}
+.box2{
+    margin: 15px;
+    border: 2px solid white;
+    background:linear-gradient(45deg, rgb(188, 76, 1) 0 50%, rgb(0, 0, 0) 50%,rgb(185, 93, 0))
+      
+}
+ol{
+     margin: 30px;
+     color: white;
+}
+.tap{
+         padding: 10px;
+}
+.ps{
+    width: 50%;
+    padding: 10px;
+}
